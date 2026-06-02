@@ -1,3 +1,4 @@
+![banner](https://github.com/kunalydv-2000/Alteryx-Complete-Course-Beginner-to-Advanced/blob/876d927bd73f0f4e854c612f0381f2ae0b73cd3e/Assets/banner.png)
 # 🚀 Alteryx Complete Course: Beginner to Advanced
 
 Welcome to the **Alteryx Complete Course: Beginner to Advanced**. This repository is designed to provide a structured learning path for anyone who wants to master Alteryx, from fundamental concepts to enterprise-level workflow automation, predictive analytics, and production deployment.
