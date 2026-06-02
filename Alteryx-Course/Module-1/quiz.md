@@ -8,6 +8,7 @@ What is Alteryx?
 A low-code analytics automation platform.
 
 </details>
+
 ### Q2
 
 What are the three major Alteryx products?
@@ -17,6 +18,7 @@ What are the three major Alteryx products?
 Designer, Server, Analytics Cloud.
 
 </details>
+
 ### Q3
 
 What is a workflow?
@@ -26,6 +28,7 @@ What is a workflow?
 A sequence of connected tools that process data.
 
 </details>
+
 ### Q4
 
 Which component displays workflow results?
@@ -35,6 +38,7 @@ Which component displays workflow results?
 Results Window.
 
 </details>
+
 ### Q5
 
 Name three business areas where Alteryx is commonly used.
