@@ -156,12 +156,10 @@ Deliver Results
 ```
 
 ---
-
-5. <details> <summary>Answer</summary>
-
+5. Career roles in Alteryx
+<details> <summary>Answer</summary>
 1. Data Analyst
 2. Business Analyst
 3. BI Developer
 4. Alteryx Developer
-
 </details>
