@@ -9,7 +9,8 @@
 ---
 
 # Answers:
-  > 1.Definition
+
+1.Definition
 
 Alteryx is a low-code/no-code analytics automation platform used to:
 
@@ -56,7 +57,7 @@ One-click execution.
 
 ---
 
-  > 2.Traditional analytics processes are slow.
+2.Traditional analytics processes are slow.
 
 Data analysts often spend:
 
@@ -67,6 +68,7 @@ Data analysts often spend:
 Alteryx reduces the manual work by automating repetitive tasks.
 
 **Business Problems Solved**
+
 **Problem 1**
 
 Sales data arrives from:
@@ -75,8 +77,6 @@ Excel
 CRM
 Database
 CSV files
-
----
 
 Combining them manually takes hours.
 
@@ -100,7 +100,7 @@ Automation reduces mistakes.
 
 ---
 
-  > 3.**Traditional Analytics**
+3.**Traditional Analytics**
 ```
 Extract Data
 ↓
@@ -140,7 +140,7 @@ Benefits:
 
 ---
 
-  > 4.
+4.
  ```
 Collect Data
 ↓
