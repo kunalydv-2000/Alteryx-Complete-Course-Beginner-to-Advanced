@@ -1,5 +1,5 @@
 # Practical Assignment
->
+
 1.What is Alteryx?
 2.Why do companies use Alteryx?
 3.Difference between traditional analytics and Alteryx.
