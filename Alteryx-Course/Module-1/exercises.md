@@ -1,16 +1,16 @@
 # Practical Assignment
 
-1.What is Alteryx?
-2.Why do companies use Alteryx?
-3.Difference between traditional analytics and Alteryx.
-4.Explain the workflow lifecycle.
-5.List five career roles that use Alteryx.
+1. What is Alteryx?
+2. Why do companies use Alteryx?
+3. Difference between traditional analytics and Alteryx.
+4. Explain the workflow lifecycle.
+5. List five career roles that use Alteryx.
 
 ---
 
 # Answers:
 
-1.Definition
+1. Definition
 
 Alteryx is a low-code/no-code analytics automation platform used to:
 
@@ -57,7 +57,7 @@ One-click execution.
 
 ---
 
-2.Traditional analytics processes are slow.
+2. Traditional analytics processes are slow.
 
 Data analysts often spend:
 
@@ -100,7 +100,7 @@ Automation reduces mistakes.
 
 ---
 
-3.**Traditional Analytics**
+3. **Traditional Analytics**
 ```
 Extract Data
 ↓
@@ -140,7 +140,7 @@ Benefits:
 
 ---
 
-4.
+4. Workflow lifecycle
  ```
 Collect Data
 ↓
