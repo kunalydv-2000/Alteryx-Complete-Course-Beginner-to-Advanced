@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="school" selected="True" />
+            <SelectField field="sex" selected="True" />
+            <SelectField field="age" selected="True" />
+            <SelectField field="address" selected="True" />
+            <SelectField field="famsize" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dell\AppData\Local\Temp\Alteryx\Engine_20100_d9fa660ee70a41d9b9387170f341b468_\Engine_20100_91779cf94ba44f9a8bb0e0c792fb67a5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="174" width="100" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Dataset received from CRM system ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="White" />
+          <FillColor name="Black" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="42" y="138" width="173" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data Preparation</Caption>
+          <Style TextColor="#314c4a" FillColor="#00d5d5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Data Preparation</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="66" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>student_data.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="school" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="sex" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="age" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="address" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="famsize" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="Pstatus" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="Medu" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="Fedu" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="Mjob" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="Fjob" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="reason" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="guardian" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="traveltime" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="studytime" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="failures" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="schoolsup" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="famsup" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="paid" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="activities" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="nursery" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="higher" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="internet" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="romantic" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="famrel" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="freetime" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="goout" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="Dalc" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="Walc" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="health" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="absences" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="G1" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="G2" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+                <Field name="G3" size="254" source="File: C:\Users\dell\Desktop\Alteryx-Course\Module-04\dataset\student_data.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>exercise_3</Name>
+      <Description>This workflow imports student data and
+removes unnecessary fields before analysis.</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="75014ba3-7b17-4121-bef7-d818a5b605bc" />
+      <Telemetry>
+        <PreviousWorkflowId value="37a4ca97-9967-4f25-a878-3d7067fb97f1" />
+        <OriginWorkflowId value="37a4ca97-9967-4f25-a878-3d7067fb97f1" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
