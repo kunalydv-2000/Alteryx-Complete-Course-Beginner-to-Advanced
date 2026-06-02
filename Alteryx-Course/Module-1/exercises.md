@@ -4,7 +4,7 @@
 2. Why do companies use Alteryx?
 3. Difference between traditional analytics and Alteryx.
 4. Explain the workflow lifecycle.
-5. List five career roles that use Alteryx.
+5. List career roles that use Alteryx.
 
 ---
 
@@ -158,8 +158,8 @@ Deliver Results
 ---
 5. Career roles in Alteryx
 
- 1. Data Analyst
- 2. Business Analyst
- 3. BI Developer
- 4. Alteryx Developer
+ - Data Analyst
+ - Business Analyst
+ - BI Developer
+ - Alteryx Developer
 
